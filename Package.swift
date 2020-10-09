@@ -10,6 +10,12 @@ let package = Package(
         .library(
             name: "qds-ios-test",
             targets: ["qds-ios-test"]),
+        .library(
+            name: "ReusableButton",
+            targets: ["ReusableButton"]),
+        .library(
+            name: "ReusableSlider",
+            targets: ["ReusableSlider"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -24,5 +30,11 @@ let package = Package(
         .testTarget(
             name: "qds-ios-testTests",
             dependencies: ["qds-ios-test"]),
+        .target(
+            name: "ReusableButton",
+            dependencies: []),
+        .target(
+            name: "ReusableSlider",
+            dependencies: [])
     ]
 )
