@@ -14,8 +14,8 @@ let package = Package(
             name: "ReusableButton",
             targets: ["ReusableButton"]),
         .library(
-            name: "ReusableSlider",
-            targets: ["ReusableSlider"])
+            name: "QDSSheet",
+            targets: ["QDSSheet"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -34,7 +34,7 @@ let package = Package(
             name: "ReusableButton",
             dependencies: []),
         .target(
-            name: "ReusableSlider",
+            name: "QDSSheet",
             dependencies: [])
     ]
 )
